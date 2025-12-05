@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Playfair+Display:wght@400;500;600&display=swap');
 
 /* Global reset ringkas */
 * {
@@ -42,9 +43,9 @@ a.link:hover,
 }
 
 .site-title {
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: 400;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
 }
@@ -52,7 +53,9 @@ a.link:hover,
 .site-subtitle {
   color: #aaaaaa;
   margin-top: 4px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.1rem;
+  letter-spacing: 0.01em;
 }
 
 /* Navigation */
