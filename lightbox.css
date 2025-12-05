@@ -1,0 +1,51 @@
+/* Lightbox background */
+.lightbox {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.92);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+/* Lightbox image */
+.lightbox img {
+  max-width: 90%;
+  max-height: 90%;
+  box-shadow: 0 0 20px rgba(0,0,0,0.7);
+}
+
+/* Navigation arrows */
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 48px;
+  color: #fff;
+  cursor: pointer;
+  user-select: none;
+  padding: 15px;
+}
+
+.arrow:hover {
+  color: #bbb;
+}
+
+.arrow-left {
+  left: 40px;
+}
+
+.arrow-right {
+  right: 40px;
+}
+
+/* Close (X) button */
+.close-btn {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  font-size: 40px;
+  color: #fff;
+  cursor: pointer;
+}
