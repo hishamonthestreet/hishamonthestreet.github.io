@@ -1,0 +1,107 @@
+/* Global reset ringkas */
+* {
+  box-sizing: border-box;
+}
+
+/* Tema asas */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #101010;
+  color: #f2f2f2;
+}
+
+/* Container tengah */
+.wrapper {
+  max-width: 1080px;
+  margin: 40px auto 80px;
+  padding: 0 24px;
+}
+
+/* Link */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a.link,
+.nav a {
+  border-bottom: 1px solid #444;
+}
+
+a.link:hover,
+.nav a:hover {
+  border-bottom-color: #f2f2f2;
+}
+
+/* Header / site title */
+.site-header {
+  margin-bottom: 40px;
+}
+
+.site-title {
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.site-subtitle {
+  color: #aaaaaa;
+  margin-top: 4px;
+}
+
+/* Navigation */
+.nav {
+  margin-top: 16px;
+}
+
+.nav a {
+  margin-right: 16px;
+  font-size: 0.95rem;
+}
+
+/* Main content */
+main h1 {
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+main p {
+  color: #bbbbbb;
+  line-height: 1.7;
+  max-width: 720px;
+}
+
+/* Grid untuk portfolio */
+.grid {
+  margin-top: 32px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+/* Gambar + frame */
+figure {
+  margin: 0;
+  background: #181818;
+  padding: 8px;
+}
+
+figure img {
+  width: 100%;
+  display: block;
+}
+
+figcaption {
+  font-size: 0.8rem;
+  color: #888888;
+  margin-top: 6px;
+}
+
+/* Footer kecil */
+.footer {
+  margin-top: 60px;
+  font-size: 0.8rem;
+  color: #666666;
+}
