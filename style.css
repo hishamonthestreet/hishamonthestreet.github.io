@@ -46,6 +46,7 @@ a.link:hover,
   font-weight: 400;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .site-subtitle {
