@@ -42,9 +42,9 @@ a.link:hover,
 }
 
 .site-title {
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-weight: 400;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
 }
@@ -52,7 +52,7 @@ a.link:hover,
 .site-subtitle {
   color: #aaaaaa;
   margin-top: 4px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.1rem;
   letter-spacing: 0.01em;
 }
