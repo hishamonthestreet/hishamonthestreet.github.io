@@ -63,7 +63,8 @@ a.link:hover,
 
 .nav a {
   margin-right: 16px;
-  font-size: 0.95rem;
+  font-size: 1rem;   /* <- KUNCI SAIZ */
+  line-height: 1.4;
 }
 
 /* Main content */
