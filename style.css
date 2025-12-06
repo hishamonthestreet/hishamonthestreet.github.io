@@ -135,3 +135,57 @@ figcaption {
   max-height: 90%;
   border: 2px solid #444;
 }
+
+/* ====== MOBILE TUNING ====== */
+@media (max-width: 768px) {
+
+  .wrapper {
+    margin: 24px auto 40px;
+    padding: 0 16px;
+  }
+
+  .site-title {
+    font-size: 1.6rem;
+    letter-spacing: 0.06em;
+  }
+
+  .site-subtitle {
+    font-size: 0.85rem;
+  }
+
+  .nav {
+    margin-top: 10px;
+  }
+
+  .nav a {
+    display: inline-block;
+    margin-right: 12px;
+    font-size: 0.9rem;
+  }
+
+  main h1 {
+    font-size: 1.2rem;
+  }
+
+  main p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  .grid {
+    gap: 12px;
+  }
+
+  figure {
+    padding: 6px;
+  }
+
+  figcaption {
+    font-size: 0.75rem;
+  }
+
+  .footer {
+    margin-top: 40px;
+    font-size: 0.75rem;
+  }
+}
